@@ -2,7 +2,7 @@
 
 class matematyka{
 
-  public  $a, $b;
+  public  $a, $b, $c;
 
     function __construct($a,$b){
         $this->a = $a;
@@ -27,6 +27,21 @@ class matematyka{
 
 class pola extends matematyka{
 
+ public function pole_kwadratu($a){
+    
+    if($a>0){
+
+    return $a*$a;
+    }
+    else{
+      echo "Podałeś niepoprawne liczby";
+    }
+
+
+  }
+
+
+
 }
 
 $o1 = new matematyka(55,66);
@@ -37,9 +52,11 @@ $o3 = new pola(22,11);
 
 $wyn = $o3->suma(1,2);
 
+
 $ilosc = 100;
 
 
+$wyn =$o3->pole_kwadratu(5);
 
 echo "******* " .  $wyn . " ******<BR>";
 
