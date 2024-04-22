@@ -23,7 +23,7 @@ class matematyka{
     }
 
 }
-
+//eeee
 
 class pola extends matematyka{
 
