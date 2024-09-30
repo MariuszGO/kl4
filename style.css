@@ -1,0 +1,22 @@
+p{ 
+    font-size: 1em; 
+    color: #F50AD1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-decoration: overline;
+    text-decoration-color: aquamarine;
+    /*text-transform: lowercase;*/
+    text-align: center;
+    text-shadow: 8px 3px 6px black;
+}
+
+.kl1{ color: black;
+    font-size: 2em;
+}
+
+
+.kl2{ color: rgb(251, 255, 0);
+    font-size: 2em;
+}
+
