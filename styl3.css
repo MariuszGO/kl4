@@ -71,10 +71,10 @@ td:hover{
     
 }
 
-tr:nth-child(2n) {
+tr:nth-child(even) {
     background-color: rgba(0, 128, 0, 0.344);
 }
-tr:nth-child(2n+1) {
+tr:nth-child(odd) {
     background-color: rgba(128, 128, 128, 0.199);
 }
 
