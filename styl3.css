@@ -40,3 +40,43 @@ font-size: 100px;
 
 }
 
+table tr td p {
+    font-size: 0.8em;
+    color: lightblue;
+    
+}
+table tr td p:hover {
+    font-size: 0.8em;
+    color: rgb(230, 173, 225);
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+table{
+    border: inset 10px rgba(0, 0, 255, 0.265);
+    border-radius: 15px;    
+    margin: 2px;
+
+}
+td {
+   
+    border: solid 2px;
+    border-radius: 5px; 
+    padding: 1px;
+   
+}
+
+td:hover{
+    background-color: rgb(255, 230, 0);
+    
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(0, 128, 0, 0.344);
+}
+tr:nth-child(2n+1) {
+    background-color: rgba(128, 128, 128, 0.199);
+}
+
+
+
