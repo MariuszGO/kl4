@@ -26,8 +26,9 @@ H1{
 }
 
 table{
+    width: 100%;
     border: 8px solid black;
-    margin-left: 400px;
+    height: 400px;
     border-radius: 20px;
     border-start-end-radius: 80px 80px;
     
