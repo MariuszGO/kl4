@@ -1,0 +1,45 @@
+@import url("styl3.css");
+p{
+    font-size: 30px;
+}
+
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    border: 2px dashed;
+    width: 50%;}
+
+/*komentarz
+komentarz
+komentarz
+komentarz
+*/
+
+/*komentarz*/
+
+.jeden{
+    color: greenyellow !important; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 2em !important;
+}
+.jeden p{
+    border: 1px solid;
+    
+    color: rgba(30,43,34,0.2) !important; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 2em !important;
+}
+
+
+H1{
+    background-color: blue;
+}
+
+H1:hover{
+    background-color: blueviolet;
+}

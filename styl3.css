@@ -58,7 +58,7 @@ table{
     margin: 2px;
 
 }
-td {
+td{
    
     border: solid 2px;
     border-radius: 5px; 
@@ -72,10 +72,10 @@ td:hover{
 }
 
 tr:nth-child(even) {
-    background-color: rgba(0, 128, 0, 0.344);
+    background-color: rgba(0, 128, 0, 0.532);
 }
 tr:nth-child(odd) {
-    background-color: rgba(128, 128, 128, 0.199);
+    background-color: rgba(128, 128, 128, 0.502);
 }
 
 
