@@ -1,0 +1,96 @@
+/* body{margin: auto;
+        width: 70%;
+
+
+}
+
+header{
+        width: 100%;
+        background-color: bisque;
+        float: left;
+}
+
+nav, aside{
+    width: 25%;
+    background-color: #a52a2a;
+    float: left;
+}
+
+article{
+    width: 50%;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+
+
+footer{
+    clear: both;
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+*/
+
+body{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: minmax(100px,auto) ;
+    grid-template-areas: 
+   /* "naglowek naglowek naglowek naglowek naglowek naglowek"
+    "l1 l1 sr sr p p"
+    "l1 l1 l2 l2 l2 l2"
+    "stopka stopka stopka stopka stopka stopka"
+    */
+    ;
+}
+
+
+.naglowek{
+grid-column-start: 1;
+grid-column-end: 7;
+grid-row-start: 1;
+grid-row-end: 2;
+
+    /*grid-area: naglowek; */
+    background-color: aquamarine;
+}
+
+.l1{
+   /* grid-area: l1; */
+    background-color: beige;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+
+}
+
+
+.l2{
+    grid-area: l2;
+    background-color: red;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+}
+
+.stopka{
+    grid-row: 4 / 5;
+    grid-column: 1 / 7;
+   /* grid-area: stopka */;
+    background-color: darkcyan;
+}
+
+.sr{
+    /*grid-area: sr;*/
+    background-color: yellow;
+
+    grid-row: 2  / 4;
+    grid-column: 4 / 6;
+}
+
+
+.p{
+    /*grid-area: p;*/
+    background-color: blueviolet;
+    grid-row: 2 / 4;
+    grid-column: 6 / 7;
+}

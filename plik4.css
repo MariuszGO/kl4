@@ -2,7 +2,7 @@
 p{
     font-size: 30px;
 }
-
+p::before{content: "TO JEST: ";}
 
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -10,7 +10,9 @@ p{
 
 body{
     border: 2px dashed;
-    width: 50%;}
+    width: 80%;
+    margin: auto;
+}
 
 /*komentarz
 komentarz
@@ -34,7 +36,18 @@ komentarz
     text-shadow: 2px 2px 2px grey;
     font-size: 2em !important;
 }
+table{
+    margin: 10px;
+    width: 80%;
+    margin: auto;
+ 
+    
+    }
 
+.tabela{
+
+
+}
 
 H1{
     background-color: blue;
@@ -42,4 +55,5 @@ H1{
 
 H1:hover{
     background-color: blueviolet;
+    transform: rotate(0.5turn);
 }
