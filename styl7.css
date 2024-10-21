@@ -1,0 +1,40 @@
+body{margin: auto;
+    width: 80%;
+
+}
+
+
+.logo{
+        background-color: antiquewhite;
+        width: 100%;
+    }
+
+.l1{
+    background-color: aqua;
+    width: 20%;
+    float: left;
+    height: 150px;
+}
+
+.l2{
+    
+    background-color: rebeccapurple;
+    width: 20%;
+    float: left;
+    height: 150px;
+}
+
+.prawy{
+    
+    background-color: cornflowerblue;
+    width: 80%;
+    float: right;
+    height: 300px;
+}
+
+.stopka{
+    clear: both;
+    background-color: pink;
+    width: 100%;
+    float: left;
+}
