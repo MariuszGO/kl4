@@ -1,40 +1,49 @@
 body{margin: auto;
-    width: 80%;
+    display: grid;
+    grid-template-areas: 
+    "logo logo logo  logo  logo"
+    "adam  adam prawy prawy prawy"
+    "l2  l2 prawy prawy prawy"
+    "l3  l3 prawy prawy prawy"
+    "stopka stopka stopka stopka stopka";
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
 
 }
 
 
 .logo{
+    grid-area: logo;
         background-color: antiquewhite;
-        width: 100%;
+        
     }
 
 .l1{
+    grid-area: adam;
     background-color: aqua;
-    width: 20%;
-    float: left;
-    height: 150px;
+   
+ 
 }
 
 .l2{
-    
+    grid-area: l2;
     background-color: rebeccapurple;
-    width: 20%;
-    float: left;
-    height: 150px;
+
+}
+.l3{
+    grid-area: l3;
+    background-color: rgba(56, 153, 51, 0.808);
+
 }
 
 .prawy{
-    
+    grid-area: prawy;
     background-color: cornflowerblue;
-    width: 80%;
-    float: right;
-    height: 300px;
+
 }
 
 .stopka{
-    clear: both;
+    grid-area: stopka;
     background-color: pink;
-    width: 100%;
-    float: left;
+    
 }
