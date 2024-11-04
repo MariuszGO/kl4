@@ -6,8 +6,8 @@ body{margin: auto;
     "l2  l2 prawy prawy prawy"
     "l3  l3 prawy prawy prawy"
     "stopka stopka stopka stopka stopka";
-    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr *;
+    grid-auto-rows: auto ;
 
 }
 

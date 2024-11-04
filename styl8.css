@@ -1,0 +1,110 @@
+.kontener{
+display: flex;
+flex-direction: column;
+
+}
+body
+{
+    margin: auto;
+    width: 80%;
+}
+
+
+
+.blok1{
+background-color: aquamarine;
+height: 100px;
+
+}
+
+.blok2{
+background-color: blue;
+display: flex;
+flex-direction: row;
+}
+
+.a1{   
+    width: 33%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+.l1{
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+}
+.l2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241, 217, 0);
+}
+
+.a2{ 
+    display: flex;
+    width: 34%;
+    background-color: rgba(141, 253, 94, 0.53);
+    flex-flow: row wrap;
+    justify-content: center;
+   
+}
+.a3{   
+    width: 33%;
+    background-color: rgb(237, 8, 226);
+    display: flex;
+    flex-direction: column;
+}
+.bloczek{
+    
+    background-color: black;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.p1{
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.p2{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(69, 43, 157);
+}
+.p3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(140, 255, 0);
+}
+.p4{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(43, 0, 4);
+}
+
+
+
+
+#blok3{
+background-color: brown;
+display: flex;
+flex-direction: row;
+
+}
+
+#d1{
+    
+    background-color: burlywood;
+    height: 300px;
+    width: 100%;
+}
+
+#d2{
+    
+    background-color: darkgoldenrod;
+   height: 300px;
+    width: 100%;
+}
