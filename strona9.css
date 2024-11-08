@@ -20,11 +20,12 @@
     flex-direction: row;
 }
 
-.s1{width: 100%;
+.s1{
+    width: 100%;
     height: 500px;
     background-color: beige;
     display: flex;
-    justify-content: right;
+    justify-content:center;
     flex-direction: row;
     flex-wrap: wrap;
     
