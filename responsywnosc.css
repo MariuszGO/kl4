@@ -1,0 +1,116 @@
+body{
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav aside" 
+        "nav article"
+        "footer footer"
+    ;
+    grid-template-columns: 3fr 7fr;
+}
+p{  margin-top: 50px;
+    color: azure;
+ text-align: center;
+ 
+}
+
+header{
+    grid-area: header;
+    height: 100px;
+    background-color: bisque;
+}
+
+nav{
+    grid-area: nav;
+    height: 600px;
+    background-color: aqua;    
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    grid-area: aside;
+    height: 200px;
+    background-color: rgb(118, 159, 22);  
+}
+
+.p1{ width: 200px;
+    height: 150px;
+    background-color: black;
+    margin: 10px;
+}
+
+article{
+    grid-area: article;
+    height: 400px;
+    background-color: rgb(68, 22, 159);  
+}
+
+footer{
+    grid-area: footer;
+    height: 100px;
+    background-color: bisque;
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+
+    body{
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside" 
+            "nav"
+            "article"
+            "footer"
+        ;
+        grid-template-columns: 1fr;
+        
+    p{  margin-top: 50px;
+        color: azure;
+     text-align: center;
+     
+    }
+    
+    header{
+        grid-area: header;
+        height: 100px;
+        background-color: bisque;
+    }
+    
+    nav{
+        grid-area: nav;
+        height: 600px;
+        background-color: aqua;    
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        grid-area: aside;
+        height: 700px;
+        background-color: rgb(118, 159, 22);  
+    }
+    
+    .p1{ width: 200px;
+        height: 150px;
+        background-color: black;
+        margin: 10px;
+    }
+    
+    article{
+        grid-area: article;
+        height: 400px;
+        background-color: rgb(68, 22, 159);  
+    }
+    
+    footer{
+        grid-area: footer;
+        height: 100px;
+        background-color: bisque;
+    }
+
+
+
+  }
