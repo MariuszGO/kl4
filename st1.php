@@ -69,5 +69,26 @@ for($i=0;$i<100;$i++){
 
 }
 
+$txt = "Bardzo lubie chodzic do szkoly";
 
+$ilosc_znakow = strlen($txt); 
+$ilosc_slow = str_word_count($txt);
+$pozycja_slowa = strpos($txt,"do");
+echo "<br>Nasze zdanie: ($txt) ma $ilosc_znakow znaków oraz $ilosc_slow słów<br>";
+echo "Słowo (do) jest na pozycji $pozycja_slowa";
+$modyfikacja = strtoupper($txt);
+echo "Dużymi literami $modyfikacja";
+$modyfikacja1 = strtolower($modyfikacja);
+echo "Małymi literami $modyfikacja1";
+$zamiana = str_replace("szkoly","domu",$txt);
+echo "<br>zamienione słowo $zamiana";
+
+$txt2 = "&nbsp&nbspBardzo lubie programowac w jezyku PHP";
+echo  "<br>".$txt2;
+$txt3 = trim($txt2,"l");
+echo  "<br>".trim($txt3);
+
+$t = explode(" ",$txt2);
+
+echo $t[0] . " " . $t[3];
 ?>
