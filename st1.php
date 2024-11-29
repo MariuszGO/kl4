@@ -62,5 +62,12 @@ foreach($tab as $klucz){
     echo "$klucz <br>";
 }
 
-?>
 
+
+for($i=0;$i<100;$i++){
+  echo " ". rand(1,1000);
+
+}
+
+
+?>
