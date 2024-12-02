@@ -17,7 +17,7 @@ $d = $a + $b;
 $e = 20;
 
 
-// większa od 10
+// większa od 10 a mniejsza od 20
 // większa od 20 a mniejsza od 30
 // wieksza od 30 a mniejsza od 40 
 // poza podanymi zakresami
