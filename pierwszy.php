@@ -33,6 +33,14 @@ else{
     echo "różne";
 }
 
+$login = "admin";
+$haslo = "admin123";
+
+
+
+
+
+
 
 
 ?>
