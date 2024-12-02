@@ -11,9 +11,7 @@
         <input type="submit" value="Sprawdź">
     </form>
     
-    <?php
-
-
+<?php
 if(isset($_GET['liczba'])){
 
 $b = $_GET['liczba'];
@@ -24,10 +22,7 @@ if( $b > 50 && $b < 150){
 else {
     echo "b:  $b jest poza przedziałam";
 }
-
 }
-
-
 ?>
 
 

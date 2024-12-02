@@ -37,8 +37,35 @@ $login = "admin";
 $haslo = "admin123";
 
 
+// proszę napisać pętle która wyświetli na ekranie 100 licz
+/*for ($i=0;$i<5;$i++){
+echo "Witaj";
+}
+while(warunek){
+inkrementacja;
+instrukcje
+}
 
+do{
+inkrementacja;
+instrukcje
+}while(warunek)
 
+foreach($tablica as $klucz){
+echo $klucz;
+}
+
+*/
+echo "<br><br>";
+$n = 20;
+
+for ($i = 0 ; $i < $n ; $i++){
+
+                 for ($j = 0 ; $j < $n ; $j++){
+                                                echo "*";
+                                                }
+echo "<br>";
+}
 
 
 
