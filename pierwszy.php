@@ -67,6 +67,18 @@ for ($i = 0 ; $i < $n ; $i++){
 echo "<br>";
 }
 
+$dni = array ("poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela");
+
+echo "<ul>";
+foreach ($dni as $k ){
+    echo "<li>".  $k . "</li>" ;
+}
+
+echo "</ul>";
+
+
+
+echo "************** " . $dni['5'] . " **************"; 
 
 
 
