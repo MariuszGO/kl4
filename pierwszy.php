@@ -69,6 +69,7 @@ echo "<br>";
 
 $dni = array ("poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela");
 
+$dni['1'] = strtoupper($dni['1']);
 echo "<ul>";
 foreach ($dni as $k ){
     echo "<li>".  $k . "</li>" ;
