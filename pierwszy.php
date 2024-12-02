@@ -1,24 +1,22 @@
 <?php
 
-$zmienna = 15;     
-$zmienna2 = "15";
-$zmienna3 = "ADAM";
-$zmienna4 = 3.555;
-$zmienna5 = true;
-$tab = array (3,35,335,34);
-$t[1]= 3434;
+$a = 30;
+$b = 30;
+$c = "30";
 
-echo "Witaj Świecie";
-echo "<br>";
-var_dump($zmienna);
-echo "<br>";
-echo "<h1>To jest zmienna </h1>";
-var_dump($zmienna3);
+$d = $a + $b;
 
+//echo "wynik : $d";
+//= przypisz
+// == czy są równe
+// === czy są równe i są tego samego typu
 
-echo "<br>Zmienna jeden ma wartość $zmienna <br>";
-echo "Zmienna jeden ma wartosć " . $zmienna . " " .$zmienna4;
-
+if ($a === $b){
+    echo "równe";
+}
+else{
+    echo "różne";
+}
 
 
 
