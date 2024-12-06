@@ -57,7 +57,7 @@ echo $klucz;
 
 */
 echo "<br><br>";
-$n = 20;
+$n = 3;
 
 for ($i = 0 ; $i < $n ; $i++){
 
@@ -76,8 +76,6 @@ foreach ($dni as $k ){
 }
 
 echo "</ul>";
-
-
 
 echo "************** " . $dni['5'] . " **************"; 
 
