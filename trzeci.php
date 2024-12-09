@@ -21,7 +21,7 @@ for($i=0;$i<1000;$i++){
 
 
 
-$tablica = array( "Jezyk Polski" , "Matematyka" , "Fizyka" , "WF" , "Chemia" , "Strony i aplikacje" , "Pracownia sys");
+$tablica = array( "Biologia","Jezyk Polski" , "Matematyka" , "Fizyka" , "WF" , "Chemia" , "Strony i aplikacje" , "Pracownia sys");
 
 echo "<table border = 1>
 <tr><td>Przedmiot</td><td>Ocena</td></tr>";
