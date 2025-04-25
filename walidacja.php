@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl_walidacja.css">
     <title>Walidacja</title>
 </head>
 <body>
@@ -20,10 +21,10 @@
     <label for="miasto">Miasto:</label>
     <input type="text" id="miasto" name="miasto" pattern="[A-Z]{1,1}[a-z]{3,56}" title="Same litery"><br><br>
 
-    <label for="Kod pocztowy">Nazwisko:</label>
+    <label for="kod">Kod pocztowy:</label>
     <input type="text" id="kod" name="kod" pattern="^\d{2}-\d{3}$"title="Format XX-XXX"><br><br>
 
-    <input type="submit" value="Wyślij">
+   <button type="submit">Wyślij</button>
 
 
     <?php
