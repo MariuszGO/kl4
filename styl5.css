@@ -1,43 +1,9 @@
-/* body{margin: auto;
-        width: 70%;
-
-
-}
-
-header{
-        width: 100%;
-        background-color: bisque;
-        float: left;
-}
-
-nav, aside{
-    width: 25%;
-    background-color: #a52a2a;
-    float: left;
-}
-
-article{
-    width: 50%;
-    background-color: cornflowerblue;
-    float: left;
-}
-
-
-
-footer{
-    clear: both;
-    width: 100%;
-    background-color: darkslategrey;
-}
-
-*/
-
 body{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 3fr;
     grid-auto-rows: minmax(100px,auto) ;
-    grid-template-areas: 
-   /* "naglowek naglowek naglowek naglowek naglowek naglowek"
+  /*  grid-template-areas: 
+    "naglowek naglowek naglowek naglowek naglowek naglowek"
     "l1 l1 sr sr p p"
     "l1 l1 l2 l2 l2 l2"
     "stopka stopka stopka stopka stopka stopka"

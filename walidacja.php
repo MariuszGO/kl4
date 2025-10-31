@@ -10,7 +10,7 @@
 
 <form action="walidacja.php" method="post">
     <label for="imie">Imię:</label>
-    <input type="text" id="imie" name="imie" required pattern="[A-Z]{1,1}[a-z]{3,56}" title="Same litery"><br><br>
+    <input type="text" id="imie" name="imie" required pattern="[A-Z]{1,1}[a-z]{2,56}" title="Same litery"><br><br>
 
     <label for="nazwisko">Nazwisko:</label>
     <input type="text" id="nazwisko" name="nazwisko" required pattern="[A-Z]{1,1}[a-z]{3,56}" title="Same litery"><br><br>
@@ -19,10 +19,10 @@
     <input type="text" id="wiek" name="wiek" pattern="[0-9]{1,3}" title="Same cyfry"><br><br>
 
     <label for="miasto">Miasto:</label>
-    <input type="text" id="miasto" name="miasto" pattern="[A-Z]{1,1}[a-z]{3,56}" title="Same litery"><br><br>
+    <input type="text" id="miasto" name="miasto"value="Gorlice"  pattern="[A-Z]{1,1}[a-z]{3,56}" title="Same litery"><br><br>
 
     <label for="kod">Kod pocztowy:</label>
-    <input type="text" id="kod" name="kod" pattern="^\d{2}-\d{3}$"title="Format XX-XXX"><br><br>
+    <input type="text" id="kod" name="kod" placeholder="Podaj kod format: XX-XXX" pattern="^\d{2}-\d{3}$" title="Format XX-XXX"><br><br>
 
    <button type="submit">Wyślij</button>
 

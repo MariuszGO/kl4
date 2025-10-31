@@ -6,16 +6,14 @@ body{margin: auto;
     "l2  l2 prawy prawy prawy"
     "l3  l3 prawy prawy prawy"
     "stopka stopka stopka stopka stopka";
-    grid-template-columns: 1fr 1fr *;
-    grid-auto-rows: auto ;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr 5fr;
+    /* grid-template-rows: 100px 300px 200px 100px 50px; */
+    grid-auto-rows: auto;
 }
 
-
-.logo{
+header{
     grid-area: logo;
         background-color: antiquewhite;
-        
     }
 
 .l1{
@@ -36,13 +34,13 @@ body{margin: auto;
 
 }
 
-.prawy{
+nav{
     grid-area: prawy;
     background-color: cornflowerblue;
 
 }
 
-.stopka{
+footer{
     grid-area: stopka;
     background-color: pink;
     
